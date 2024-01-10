@@ -29,13 +29,13 @@ Running ls with no arguments produced a list of all files and directories within
 
 <br>
 
-~[Image](Lab1/Screenshot_5.png) <br>
+![Image](Lab1/Screenshot_5.png) <br>
 Initial working directory: ~/ <br>
 Running ls with a relative path to a directory produces a list of all files and directory within that specified directory. This is because providing an actual directory path to ls causes it to print a list within that directory instead of the current working directory. The current working directory doesn't actually change, but ls acts on the path requested instead of the current path. No errors present and produced the expected result.
 
 <br>
 
-~[Image](Lab1/Screenshot_6.png) <br>
+![Image](Lab1/Screenshot_6.png) <br>
 Initial working directory: ~/ <br>
 Running ls with a path to a file just results in the relative path of that file. This is because ls expects a directory as an argument so that it can list all of the files in it; passing in a filepath as an argument causes ls to not execute as intended, and instead it simply displays information about the file - in this case, it just displays its path relative to the current working directory. This is not necessarily an error, just the way the ls command functions when given a filepath instead of a directory.
 
