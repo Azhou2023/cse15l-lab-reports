@@ -1,6 +1,6 @@
 # Index
 
-[Link to Lab Report 1](lab1.md)
+[Link to Lab Report 1](https://azhou2023.github.io/cse15l-lab-reports/lab1.html)
 
 > *Hey*
 
