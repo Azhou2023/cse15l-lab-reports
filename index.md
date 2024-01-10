@@ -1,5 +1,7 @@
 # Index
 
+[Link to Lab Report 1](lab1.md)
+
 > *Hey*
 
 [**This is in Bold**](https://ucsd-cse15l-w24.github.io/week1/index.html)
