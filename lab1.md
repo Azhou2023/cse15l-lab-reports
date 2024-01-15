@@ -5,7 +5,7 @@
 ![Image](Lab1/Screenshot_1.png) <br>
 Initial working directory: ~/lecture1 <br>
 Working directory after: ~/ <br>
-Running cd with no arguments resulted in the current working directory being switched to the root directory. This is not an error moreso just a feature of the cd command, as running cd without arguments is essentially equivalent to running cd ~, which switches to the root directory as expected.
+Running cd with no arguments resulted in the current working directory being switched to the root directory. This is not an error, moreso just a feature of the cd command, as running cd without arguments is essentially equivalent to running cd ~, which switches to the root directory as expected.
 
 <br>
 
@@ -55,4 +55,4 @@ Running cat on a path to a directory results in failed execution of the command 
 
 ![Image](Lab1/Screenshot_9.png) <br>
 Initial working directory: ~/ <br>
-Running cat on a path to a file prints out all of the contents of the file into the command line. This is the intended usage and expected result of the cat command; calling cat on a file or a sequence of files will produce concacenated output in the command line that prints the contents of all files involved, as can be seen in this command execution. no errors are present.
+Running cat on a path to a file prints out all of the contents of the file into the command line. This is the intended usage and expected result of the cat command; calling cat on a file or a sequence of files will produce concacenated output in the command line that prints the contents of all files involved, as can be seen in this command execution. No errors are present.
