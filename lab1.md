@@ -1,6 +1,6 @@
 # Lab Report 1
 
-`## cd`
+## `cd`
 
 ![Image](Lab1/Screenshot_1.png) <br>
 Initial working directory: `~/lecture1` <br>
@@ -21,7 +21,7 @@ Initial working directory: `~/lecture1/messages/` <br>
 Working directory after: `~/lecture1/messages/` <br>
 Running `cd` with a path to a file resulted in failed execution of the command, not switching the current working directory. This is because the command's usage is to change the current working directory to that of a new directory; attempting to change the directory into a file will result in an error, as an individual file cannot act as a directory. The error raised by the command line when attempting to run `cd` this way reflects this.
 
-`## ls`
+## `ls`
 
 ![Image](Lab1/Screenshot_4.png) <br>
 Initial working directory: `~/lecture1/messages/` <br>
@@ -39,7 +39,7 @@ Running `ls` with a relative path to a directory produces a list of all files an
 Initial working directory: `~/` <br>
 Running `ls` with a path to a file just results in the relative path of that file. This is because `ls` expects a directory as an argument so that it can list all of the files in it; passing in a filepath as an argument causes `ls` to not execute as intended, and instead it simply displays information about the file - in this case, it just displays its path relative to the current working directory. This is not necessarily an error, just the way the `ls` command functions when given a filepath instead of a directory.
 
-`## cat`
+## `cat`
 
 ![Image](Lab1/Screenshot_7.png) <br>
 Initial working directory: `~/lecture1/messages/` <br>
