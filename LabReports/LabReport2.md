@@ -40,6 +40,8 @@ class ChatServer {
 
 ```
 <br>
+
 ![Image](../Screenshots/LabReport2/Screenshot_1.png) 
+When these arguments are passed into the local server URL, methods are first called in the provided Server.java class (not included above because I didn't write it) that passes the URL through to the Handler class above, calling the `handleRequest()` method with the argument "http://localhost:4000/add-message?s=Hey&user=andrew". `handleRequest()` then executes the `else` block, calling `getQuery()` to isolate the query section of the URL (i.e. everything after the question mark). The message and user parts are then further isolated and concatenated onto the `chatHistory` field, which is displayed on the server. The only field that's changed by this request is `chatHistory` (and the `URI url` parameter which isn't really a field). 
 
     
