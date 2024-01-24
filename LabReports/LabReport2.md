@@ -47,7 +47,7 @@ When these arguments are passed into the local server URL, methods are first cal
 <br>
 
 ![Image](../Screenshots/LabReport2/Screenshot_2.png) <br>
-For this second example, all the routes and method calls are exactly the same as from the first example, except `handleRequest()` receives a different argument, that being "http://localhost:4000/add-message?s=What's up&user=Professor Politz". The else block is still triggered, and `getQuery()` still isolates the URL until the desired elements are concacenated onto `chatHistory`. Again, `chatHistory` is the only field that is changed by this request, just by a different argument than the first instance of add-message.
+For this second example, all the routes and method calls are exactly the same as from the first example, except `handleRequest()` receives a different argument, that being "http://localhost:4000/add-message?s=What%27s%20up&user=Professor%20Politz". The else block is still triggered, and `getQuery()` still isolates the URL until the desired elements are concacenated onto `chatHistory`. Again, `chatHistory` is the only field that is changed by this request, just by a different argument than the first instance of add-message.
 
 <br>
 
