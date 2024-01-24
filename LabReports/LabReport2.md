@@ -1,6 +1,6 @@
-#Lab Report 2 
+# Lab Report 2 
 
-##Part 1: Full Chat Server Code: 
+## Part 1: Full Chat Server Code: 
 ```
 import java.io.IOException;
 import java.net.URI;
@@ -51,7 +51,7 @@ For this second example, all the routes and method calls are exactly the same as
 
 <br>
 
-#Part 2 
+# Part 2 
 
 Private key path: <br>
 ![Image](../Screenshots/LabReport2/Screenshot_3.png) <br>
@@ -62,7 +62,7 @@ Public key path (on ieng6): <br>
 Logging in without password: <br>
 ![Image](../Screenshots/LabReport2/Screenshot_5.png) <br>
 
-#Part 3 
+# Part 3 
 
 Learnig how to connect to a remote computer last week through just the terminal was really cool, and something I had no idea how to do before. Even more interesting was how we set up the no-password login this week, learning about the scp command and copying keys generated on our own computer onto remote computers. I also learned a lot more about URLs and their structure, specifically about fragments, which we didn't talk about that much but was something I had always wondered about URLs. Overall, I learned a ton about how to navigate the command line and how to work with remote computers, as well as how to manipulate and process URLs to pass in appropriate information to programs. 
 
