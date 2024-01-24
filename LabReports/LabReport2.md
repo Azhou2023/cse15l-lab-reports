@@ -42,12 +42,12 @@ class ChatServer {
 <br>
 
 ![Image](../Screenshots/LabReport2/Screenshot_1.png) <br>
-When these arguments are passed into the local server URL, methods are first called in the provided Server.java class (not included above because I didn't write it) that passes the URL through to the Handler class above, calling the `handleRequest()` method with the argument "http://localhost:4000/add-message?s=Hey&user=andrew". `handleRequest()` then executes the `else` block, calling `getQuery()` to isolate the query section of the URL (i.e. everything after the question mark). The message and user parts are then further isolated and concatenated onto the `chatHistory` field, which is displayed on the server. The only field that's changed by this request is `chatHistory` (and technically the `URI url` parameter but is not a field within the method itself). 
+When these arguments are passed into the local server URL, methods are first called in the provided Server.java class (not included above because it's a separate class that I didn't write) that passes the URL through to the Handler class above, calling the `handleRequest()` method with the argument "http://localhost:4000/add-message?s=Hey&user=andrew". `handleRequest()` then executes the `else` block, calling `getQuery()` to isolate the query section of the URL (i.e. everything after the question mark). The message and user parts are then further isolated and concatenated onto the `chatHistory` field, which is displayed on the server. The only field that's changed by this request is `chatHistory` (and technically the `URI url` parameter but is not a field within the method itself). 
 
 <br>
 
 ![Image](../Screenshots/LabReport2/Screenshot_2.png) <br>
-For this second example, all the routes and method calls are exactly the same as from the first example, except `handleRequest()` receives a different argument, that being "http://localhost:4000/add-message?s=What's up&user=Professor Politz". The else block is still triggered, and `getQuery` still isolates the URL until the desired elements are concacenated onto `chatHistory`. Again, `chatHistory` is the only field that is changed by this request, just by a different argument than the first instance of add-message.
+For this second example, all the routes and method calls are exactly the same as from the first example, except `handleRequest()` receives a different argument, that being "http://localhost:4000/add-message?s=What's up&user=Professor Politz". The else block is still triggered, and `getQuery()` still isolates the URL until the desired elements are concacenated onto `chatHistory`. Again, `chatHistory` is the only field that is changed by this request, just by a different argument than the first instance of add-message.
 
 <br>
 
