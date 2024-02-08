@@ -1,12 +1,13 @@
-# Lab Report 2 
+# Lab Report 2
 
-## Part 1: Full Chat Server Code: 
+## Part 1: Full Chat Server Code:
+
 ```
 import java.io.IOException;
 import java.net.URI;
 
 class Handler implements URLHandler {
-    
+
     String chatHistory = "";
     public String handleRequest(URI url) {
         if (url.getPath().equals("/")) {
@@ -24,7 +25,7 @@ class Handler implements URLHandler {
         }
         }
     }
-    
+
 class ChatServer {
     public static void main(String[] args) throws IOException {
         if(args.length == 0){
@@ -39,10 +40,11 @@ class ChatServer {
 }
 
 ```
+
 <br>
 
 ![Image](../Screenshots/LabReport2/Screenshot_1.png) <br>
-When the program first runs, the `main` method is called with a single argument for the server port. This then starts a localhost server, and allows arguments to be passed via the URL. When these arguments are passed into the local server URL, methods are first called in the provided Server.java class that passes the URL through to the Handler class above, calling the `handleRequest()` method with the argument "http://localhost:4000/add-message?s=Hey&user=andrew". `handleRequest()` then executes the `else` block, calling `getQuery()` to isolate the query section of the URL (i.e. everything after the question mark). The message and user parts are then further isolated and concatenated onto the `chatHistory` field, which is displayed on the server. The only field that's changed by this request is `chatHistory` (which was originally an empty string but became "andrew: Hey\n" following this command). 
+When the program first runs, the `main` method is called with a single argument for the server port. This then starts a localhost server, and allows arguments to be passed via the URL. When these arguments are passed into the local server URL, methods are first called in the provided Server.java class that passes the URL through to the Handler class above, calling the `handleRequest()` method with the argument "http://localhost:4000/add-message?s=Hey&user=andrew". `handleRequest()` then executes the `else` block, calling `getQuery()` to isolate the query section of the URL (i.e. everything after the question mark). The message and user parts are then further isolated and concatenated onto the `chatHistory` field, which is displayed on the server. The only field that's changed by this request is `chatHistory` (which was originally an empty string but became "andrew: Hey\n" following this command).
 
 <br>
 
@@ -51,7 +53,7 @@ For this second example, all the routes and method calls are exactly the same as
 
 <br>
 
-# Part 2 
+# Part 2
 
 Private key path: <br>
 ![Image](../Screenshots/LabReport2/Screenshot_3.png) <br>
@@ -62,10 +64,6 @@ Public key path (on ieng6): <br>
 Logging in without password: <br>
 ![Image](../Screenshots/LabReport2/Screenshot_5.png) <br>
 
-# Part 3 
+# Part 3
 
-Learnig how to connect to a remote computer last week through just the terminal was really cool, and something I had no idea how to do before. Even more interesting was how we set up the no-password login this week, learning about the scp command and copying keys generated on our own computer onto remote computers. I also learned a lot more about URLs and their structure, specifically about fragments, which we didn't talk about that much but was something I had always wondered about URLs. Overall, I learned a ton about how to navigate the command line and how to work with remote computers, as well as how to manipulate and process URLs to pass in appropriate information to programs. 
-
-
-
-
+Learnig how to connect to a remote computer last week through just the terminal was really cool, and something I had no idea how to do before. Even more interesting was how we set up the no-password login this week, learning about the scp command and copying keys generated on our own computer onto remote computers. I also learned a lot more about URLs and their structure, specifically about fragments, which we didn't talk about that much but was something I had always wondered about URLs. Overall, I learned a ton about how to navigate the command line and how to work with remote computers, as well as how to manipulate and process URLs to pass in appropriate information to programs.
