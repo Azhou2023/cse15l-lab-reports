@@ -260,4 +260,6 @@ government/Media/AP_LawSchoolDebts.txt
 
 I've censored the above query for obvious reasons, but just take my word that it was a not very nice
 word; this option allows us to find every file that does not contain that specific profanity. Chaining this with other options to eliminate allows us to create a pretty reliable profanity filter that does not show any documents
-containing words we don't want to see.
+containing words we don't want to see. <br>
+
+Source: https://man7.org/linux/man-pages/man1/grep.1.html
