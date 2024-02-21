@@ -55,7 +55,7 @@ This code causes unexpected output because on line 4, we are assining values to 
 
 Simply switching `arr` and `newArray` in line 4 (and returning `newArray`) fixes the bug, as we have resolved the issue of values being assigned to the original array instead of the new one. With this change, values are now pulled from the original array (indexing backwards) and assigned to the new array. <br>
 
-If we run the tests again, we'll see that the neither of inputs shown previously will no longer induce any errors:
+If we run the tests again, we'll see that the neither of inputs shown previously will no longer induce any errors: <br>
 ![Image](../Screenshots/LabReport3/Screenshot_1.png)
 
 ## Part 2 - Researching Commands: grep
@@ -260,4 +260,6 @@ government/Media/AP_LawSchoolDebts.txt
 
 I've censored the above query for obvious reasons, but just take my word that it was a not very nice
 word; this option allows us to find every file that does not contain that specific profanity. Chaining this with other options to eliminate allows us to create a pretty reliable profanity filter that does not show any documents
-containing words we don't want to see.
+containing words we don't want to see. <br>
+
+Source: https://man7.org/linux/man-pages/man1/grep.1.html
