@@ -31,7 +31,7 @@ Running `ls` with no arguments produced a list of all files and directories with
 
 ![Image](../Screenshots/LabReport1/Screenshot_5.png) <br>
 Initial working directory: `~/` <br>
-Running `ls` with a relative path to a directory produces a list of all files and directory within that specified directory. This is because providing an actual directory path to `ls` causes it to print a list within that directory instead of the current working directory. The current working directory doesn't actually change, but `ls` acts on the path requested instead of the current path. No errors present and produced the expected result.
+Running `ls` with relative path to a directory produces a list of all files and directory within that specified directory. This is because providing an actual directory path to `ls` causes it to print a list within that directory instead of the current working directory. The current working directory doesn't actually change, but `ls` acts on the path requested instead of the current path. No errors present and produced the expected result.
 
 <br>
 
