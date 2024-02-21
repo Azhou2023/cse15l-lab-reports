@@ -3,6 +3,7 @@
 [Link to Lab Report 1](./LabReports/LabReport1.md)
 [Link to Lab Report 2](./LabReports/LabReport2.md)
 [Link to Lab Report 3](./LabReports/LabReport3.md)
+[Link to LabReport 4](./LabReports/LabReport4.md)
 
 > _Hey_
 
