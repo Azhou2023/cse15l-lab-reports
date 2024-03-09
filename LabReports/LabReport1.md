@@ -7,7 +7,7 @@ Initial working directory: `~/lecture1` <br>
 Working directory after: `~/` <br>
 Running `cd` with no arguments resulted in the current working directory being switched to the root directory. This is not an error, moreso just a feature of the `cd` command, as running `cd` without arguments is essentially equivalent to running `cd ~`, which switches to the root directory as expected.
 
-<br>
+br>
 
 ![Image](../Screenshots/LabReport1/Screenshot_2.png) <br>
 Initial working directory: `~/` <br>
